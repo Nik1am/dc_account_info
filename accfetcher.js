@@ -136,9 +136,6 @@ async function getacc(token) {
     "credentials": "include",
     "headers": {
         "Authorization": token,
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "same-origin"
     },
     "referrer": "https://discord.com/channels/@me/978350544043257866",
     "method": "GET",
