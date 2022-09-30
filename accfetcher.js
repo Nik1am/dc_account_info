@@ -135,6 +135,7 @@ async function getacc(token) {
     res = await fetch("https://discord.com/api/v9/users/"+id+"/profile?with_mutual_guilds=false", {
     "credentials": "include",
     "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0",
         "Authorization": token,
     },
     "referrer": "https://discord.com/channels/@me/978350544043257866",
